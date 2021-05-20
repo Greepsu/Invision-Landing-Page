@@ -1,0 +1,49 @@
+.legend-picture-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.legend-picture-container p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px 0 10% 0;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-1 p {
+    font-size: 22px;
+}
+
+.row-1, .row-1 img {
+    max-width: 100%;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2 div {
+    width: 48%;
+}
+
+.row-2 video {
+    width: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 1599px){
+    .row-1 p {
+        font-size: calc(20px + (4 * (100vw - 800px)) / 800);
+        letter-spacing: calc(0px + (-0.25 * (100vw - 800px)) / 800);
+    }
+
+    .legend-picture-container p {
+        font-size: calc(18px + (2 * (100vw - 800px)) / 800);
+    }
+}

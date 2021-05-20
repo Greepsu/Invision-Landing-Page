@@ -1,0 +1,44 @@
+.customer-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.customer-story .text{
+    text-align: center;
+}
+
+.customer-story .text h3 {
+    font-size: 46px;
+    margin-bottom: 2%;
+}
+
+.customer-story .company-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 799px){
+
+    .customer-story .text h3 {
+        font-size: calc(28px + (12 * (100vw - 400px)) / 400);
+        letter-spacing: calc(-0.25px + (-0.25 * (100vw - 400px)) / 400);
+    }
+
+    .customer-story .text a {
+        font-size: calc(20px + (8 * (100vw - 400px)) / 400);
+        letter-spacing: calc(0px + (-0.25 * (100vw - 400px)) / 400);
+    }
+
+    .company-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .company-container a:nth-child(2) {
+        margin: 4% 0;
+    }
+}

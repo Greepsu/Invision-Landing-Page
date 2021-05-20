@@ -1,0 +1,139 @@
+.product-dropdown {
+    position: absolute;
+    top: 30px;
+    left: -80px;
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-top: 8%;
+}
+
+.product-left-side {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.product-cloud {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+
+.product-cloud-text {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 65%;
+}
+
+.product-cloud-text ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.product-dropdown img {
+    width: 40%;
+}
+
+.product-enterprise img {
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.product-dropdown h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.product-dropdown ul {
+    list-style-type: none;
+}
+
+.product-dropdown ul li a {
+    font-size: 16px;
+}
+
+.product-dropdown ul li a, .product-dropdown a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-dropdown a {
+    font-size: 12px;
+}
+
+.product-dropdown a:hover {
+    text-decoration: underline;
+}
+
+.product-studio, .product-dsm, .product-enterprise {
+    margin-bottom: 8%;
+}
+
+.vertical-separator {
+    border-left: 1px solid rgb(235, 227, 227);
+    height: 90%;
+    position: relative;
+    left: -50px;
+}
+
+.product-right-side ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+/* Burger menu */
+
+.burger-menu .product-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0 50px 10%;
+    overflow-y: scroll;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+}
+
+.burger-menu .product-dropdown.false {
+    transform: translate(100%, 0);
+}
+
+.burger-menu .product-left-side {
+    margin: 0;
+}
+
+.burger-menu .product-cloud {
+    height: 370px;
+}
+
+.burger-menu .product-cloud-logo {
+    margin-bottom: 10%;
+}
+
+.burger-menu .product-studio, .burger-menu .product-dsm, .burger-menu .product-enterprise {
+    margin-bottom: 20%;
+}
+
+.burger-menu .product-right-side {
+    height: 1200px;
+}
+
+.burger-menu .vertical-separator {
+    border-bottom: 2px solid rgb(235, 227, 227);
+    width: 80%;
+    margin: 10% 0 15%;
+    display: flex;
+    align-self: center;
+}

@@ -1,0 +1,63 @@
+.company-story {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    text-decoration: none;
+}
+
+.company-story img {
+    width: 100%;
+}
+
+.company-story .text {
+    text-align: start;
+}
+
+.company-story p {
+    font-size: 18px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+}
+
+.company-story h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.company-story:hover h4 {
+    color: #FF3366;
+}
+
+.company-story:hover p {
+    color: rgb(114, 114, 114);
+}
+
+@media screen and (max-width: 799px){
+
+    .company-story {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .company-story img {
+        width: 50%;
+    }
+
+    .company-story .text {
+        width: 100%;
+        margin-left: 4%;
+    }
+
+    .company-story .text h4 {
+        font-size: calc(18px + (2 * (100vw - 400px)) / 400);
+        letter-spacing: calc(0px + (0 * (100vw - 400px)) / 400);
+    }
+
+    .company-story .text p {
+        font-size: calc(16px + (0 * (100vw - 400px)) / 400);
+    }
+}

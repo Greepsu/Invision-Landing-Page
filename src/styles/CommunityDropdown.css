@@ -1,0 +1,84 @@
+.community-dropdown {
+    position: absolute;
+    top: 30px;
+    left: 230px;
+    width: 750px;
+    height: 260px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-dropdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 60%;
+}
+
+.community-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: none;
+    height: 100%;
+}
+
+.community-dropdown ul li a {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.community-dropdown ul li p {
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 4%;
+}
+
+.community-dropdown .community-leadership {
+    height: 100%;
+}
+
+.community-dropdown .community-webinars {
+    height: 73%;
+}
+
+.community-dropdown .community-events {
+    height: 43%;
+}
+
+.community-vertical-separator {
+    border-left: 1px solid rgb(235, 227, 227);
+    height: 100%;
+    position: relative;
+}
+
+.community-leadership ul li:hover {
+    cursor: pointer;
+}
+
+.community-leadership ul li:hover a {
+    text-decoration: underline;
+}
+
+.burger-menu .community-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0 50px 10%;
+    overflow-y: scroll;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
