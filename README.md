@@ -27,12 +27,12 @@ Due to this reproduction, I was able to confront real design and integration iss
 
 ```
 git clone https://github.com/Greepsu/Invision-Landing-Page
-cd weather-app
+cd Invision-Landing-Page
 npm start
 ```
 
 ## 💻 Links
 
 Official InVision website: https://www.invisionapp.com <br/>
-Application: https://weather-app-eight-neon.vercel.app <br/>
+Application: https://invision-landing-page.vercel.app <br/>
 Github: https://github.com/Greepsu/Invision-Landing-Page
