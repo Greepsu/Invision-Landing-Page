@@ -1,23 +1,20 @@
 # 🍒 Invision App
 
-![invision app header](src/images/readmeheaderapp.png)
+![invision app header](src/assets/images/invision-header.png)
 
 ## Front-end integration / reproduction project via a defined model.
 
 ## ✏️ Description
 
 **Invision App** is a responsive copy of the famous digital product design platform: **InVision** maked using React.js<br/>
-
 Fully responsive website <br/>
 Upload with Vercel
 
 ## ⚡️ Overview
 
-![invision app overview](src/images/overviewapp.png)
+![invision app overview](src/assets/images/invision-overview.png)
 
 ## 🔥 Experience
-
-This web application allowed me to enhance my bases in React.js with the creation of a custom Hooks for API requests. But also in responsive design with the CSS3 breakpoints.
 
 This web application allowed me to discover React.js with the integration of an already existing website.
 Due to this reproduction, I was able to confront real design and integration issues. I was able to overcome these difficulties with a deeper understanding of CSS. I was also able to enhance my responsive design skills.
