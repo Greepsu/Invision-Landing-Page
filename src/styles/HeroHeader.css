@@ -1,220 +1,214 @@
-.heroheader-container{
-    width: 100%;
+.heroheader-container {
+  width: 100%;
 }
 
 .showcase {
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 78.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 78.5vh;
 }
 
 .video-container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 85%;
-    overflow: hidden;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .video-container video {
-    min-width: 100%;
-	min-height: 100%;
-    position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .video-container:after {
-	content: '';
-	z-index: 1;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.562);
-	position: absolute;
+  content: "";
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.562);
+  position: absolute;
 }
 
 .showcase-text {
-    z-index: -1;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .showcase-text h1 {
-    font-size: 70px;
-    font-weight: bold;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .showcase-text h2 {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .showcase-text .group-button {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 55%;
 }
 
 .showcase-text .group-button div {
-    padding: calc(30px + (8 * (100vw - 800px)) / 800);
-    padding-top: calc(10px + (8 * (100vw - 800px)) / 800);
-    padding-bottom: calc(10px + (8 * (100vw - 800px)) / 800);
-    border-radius: 999em;
+  padding: calc(30px + (8 * (100vw - 800px)) / 800);
+  padding-top: calc(10px + (8 * (100vw - 800px)) / 800);
+  padding-bottom: calc(10px + (8 * (100vw - 800px)) / 800);
+  border-radius: 999em;
 }
 
 .group-button a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .group-button .free {
-    background-color: #E81E61;
+  background-color: #e81e61;
 }
 
 .group-button .free:hover {
-    background-color: #E81E61;
-    filter: brightness(0.9);
-    transition: 0.2s;
-    cursor: pointer;
+  background-color: #e81e61;
+  filter: brightness(0.9);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .group-button .demo {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .group-button .demo:hover {
-    background-color: white;
-    transition: 0.2s;
-    cursor: pointer;
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .group-button .demo:hover a {
-    color: #E81E61;
-    transition: 0.2s;
+  color: #e81e61;
+  transition: 0.2s;
 }
 
-.play-video-group{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 130px;
-    margin-top: 20px;
+.play-video-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  margin-top: 20px;
 }
 
 .play-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
 }
 
 .play-button a:first-child {
-    color: white;
-    font-size: 12px;
+  color: white;
+  font-size: 12px;
 }
 
 .play-button:hover {
-    background-color: white;
-    transition: 0.2s;
-    cursor: pointer;
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .play-button:hover a:first-child {
-    color: #E81E61;
-    transition: 0.2s;
+  color: #e81e61;
+  transition: 0.2s;
 }
 
 .play-button-text {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 @media (min-width: 800px) and (max-width: 1599px) {
-    .showcase-text h1 {
-        font-size: calc(56px + (16 * (100vw - 800px)) / 800);
-        letter-spacing: calc(-1px + (-1 * (100vw - 800px)) / 800);
-    }
+  .showcase-text h1 {
+    font-size: calc(56px + (16 * (100vw - 800px)) / 800);
+    letter-spacing: calc(-1px + (-1 * (100vw - 800px)) / 800);
+  }
 
-    .showcase-text h2 {
-        font-size: calc(20px + (4 * (100vw - 800px)) / 800);
-    }
+  .showcase-text h2 {
+    font-size: calc(20px + (4 * (100vw - 800px)) / 800);
+  }
 
-    .showcase-text .group-button div {
-        padding: calc(20px + (8 * (100vw - 800px)) / 800);
-    }
+  .showcase-text .group-button div {
+    padding: calc(20px + (8 * (100vw - 800px)) / 800);
+  }
 
-    .group-button a {
-        font-size: calc(16px + (2 * (100vw - 800px)) / 800);
-    }
+  .group-button a {
+    font-size: calc(16px + (2 * (100vw - 800px)) / 800);
+  }
 }
 
-@media screen and (max-width: 799px){
-    .showcase {
-        height: 100vh;
-    }
+@media screen and (max-width: 799px) {
+  .showcase {
+    height: 100vh;
+  }
 
-    .showcase-text {
-        width: 80%;
-    }
+  .showcase-text {
+    width: 80%;
+  }
 
-    .showcase-text h1 {
-        font-size: calc(40px + (16 * (100vw - 400px)) / 400);
-        letter-spacing: calc(-0.5px + (-0.5 * (100vw - 400px)) / 400);
-    }
+  .showcase-text h1 {
+    font-size: calc(40px + (16 * (100vw - 400px)) / 400);
+    letter-spacing: calc(-0.5px + (-0.5 * (100vw - 400px)) / 400);
+  }
 
-    .showcase-text h2 {
-        font-size: calc(20px + (0 * (100vw - 400px)) / 400);
-    }
+  .showcase-text h2 {
+    font-size: calc(20px + (0 * (100vw - 400px)) / 400);
+  }
 
-    .showcase-text .group-button {
-        width: 100%;
-    }
+  .showcase-text .group-button {
+    width: 100%;
+  }
 
-    .showcase-text .group-button div {
-        padding: calc(20px + (8 * (100vw - 800px)) / 800);
-        padding-left: calc(30px + (8 * (100vw - 800px)) / 800);
-        padding-right: calc(30px + (8 * (100vw - 800px)) / 800);
-    }
+  .showcase-text .group-button div {
+    padding: calc(20px + (8 * (100vw - 800px)) / 800);
+    padding-left: calc(30px + (8 * (100vw - 800px)) / 800);
+    padding-right: calc(30px + (8 * (100vw - 800px)) / 800);
+  }
 
-    .video-container {
-        height: 100vh;
-    }
+  .video-container {
+    height: 100vh;
+  }
 
-    .showcase-text .group-button {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 20vh;
-    }
+  .showcase-text .group-button {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 20vh;
+  }
 
-    .group-button a {
-        font-size: calc(16px + (2 * (100vw - 800px)) / 800);
-    }
+  .group-button a {
+    font-size: calc(16px + (2 * (100vw - 800px)) / 800);
+  }
 }
-
-
-
-
-

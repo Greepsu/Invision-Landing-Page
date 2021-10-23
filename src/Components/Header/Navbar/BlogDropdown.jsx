@@ -1,22 +1,33 @@
-import React from 'react'
-import '../../../styles/BlogDropdown.css'
+import React from "react";
+import "../../../styles/BlogDropdown.css";
 
-const BlogDropdown = ({status}) => {
-    return(
-        <div className="blog-dropdown">
-            <div className="blog-dropdown-container">
-            <a href="/" onClick={status} >Back</a>
-                <ul>
-                    <li><a href="/">All Topics</a></li>
-                    <li><a href="/">Teams</a></li>
-                    <li><a href="/">Process</a></li>
-                    <li><a href="/">Remote work</a></li>
-                    <li><a href="/">Design resources</a></li>
-                    <li><a href="/">Videos</a></li>
-                </ul>
-            </div>
-        </div>
-    )
-}
+const BlogDropdown = () => {
+  return (
+    <div className="blog-dropdown">
+      <div className="blog-dropdown-container">
+        <ul>
+          <li>
+            <a href="/">All Topics</a>
+          </li>
+          <li>
+            <a href="/">Teams</a>
+          </li>
+          <li>
+            <a href="/">Process</a>
+          </li>
+          <li>
+            <a href="/">Remote work</a>
+          </li>
+          <li>
+            <a href="/">Design resources</a>
+          </li>
+          <li>
+            <a href="/">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-export default BlogDropdown
+export default BlogDropdown;
